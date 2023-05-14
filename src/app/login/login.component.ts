@@ -44,13 +44,7 @@ export class LoginComponent implements OnInit {
       
      }
 
-    }, (error:any)=>{
-
-      console.log(error);
-
-      this.msg = "Something went wrong";
-
-    });
+    }, );
   }
 
 }

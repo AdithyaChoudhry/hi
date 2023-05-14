@@ -12,11 +12,11 @@ name:string="";
 
   doUserRegistration(data:any)
   {
-    return this.http.post<string>("http://localhost:3000/register", data);
+    return this.http.post<string>("http://127.0.0.1:3000/register", data);
   }
   doUserLogin(data:any)
   {
-    return this.http.post<any[]>("http://localhost:3000/login", data);
+    return this.http.post<any[]>("http://127.0.1:3000/login", data);
   }
   
 
